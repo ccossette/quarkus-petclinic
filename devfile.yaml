@@ -35,11 +35,11 @@ components:
     memoryLimit: 512Mi
     env:
       - name: POSTGRESQL_USER
-        value: developer
+        value: petclinic
       - name: POSTGRESQL_PASSWORD
-        value: developer
+        value: petclinic
       - name: POSTGRESQL_DATABASE
-        value: mydb
+        value: petclinic
     volumes:
       - name: postgres-storage
         containerPath: /var/lib/pgsql/data
